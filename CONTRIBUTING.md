@@ -12,7 +12,6 @@ Did you know we have a [Slack community][slack]? This might be a great place to 
 If you do not find an open issue related to your contribution and discussions in the Slack community are positive, the next thing to do is to create an issue in the appropriate GitHub repository.
 
 
-*   Before we can accept any code changes into the Local Motion codebase, we need to get some of the legal stuff covered. This is pretty standard for open-source projects. We are using [cla-assisant.io](https://cla-assistant.io/) to track our CLA signatures. Please ensure you sign our [Contributor License Agreement (CLA)](https://cla-assistant.io/local-motion). 
 *   Be sure there is an open issue related to the contribution.
 *   Code contributions should follow the style of the repository.
 *   Commit messages should follow the [standard format](http://chris.beams.io/posts/git-commit/) and should include a [reference](https://github.com/blog/957-introducing-issue-mentions) to the open issue they are addressing.
