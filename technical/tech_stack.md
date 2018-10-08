@@ -41,7 +41,7 @@ Although we've made our first picks, the technology choices are all up for discu
 1. A/B testing: Istio
 1. Canaries: Istio
 1. Service lookups: Kubernetes DNS
-1. API Gateway: GraphQL
+1. BFF (backend-for-frontend): GraphQL
 1. Web: React + Graphql and/or Redux (to be decided)
 
 
