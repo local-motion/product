@@ -11,6 +11,7 @@
     1. Product page -- https://github.com/local-motion/product
     1. Development bootstrap -- https://github.com/local-motion/bootstrap
 1. Meeting egg timer -- https://e.ggtimer.com/10minutes
+1. Slack Polls -- https://www.polly.ai/guides/getting-started-polly
 
 
 ### GENERAL HYGIENE 
@@ -18,6 +19,7 @@
     - Use english in chat rooms
     - Use `:thumbsup:` or `:checkmark:` for important messages to indicate you've read the 
     message. Use `Add reaction` instead of a new message so it doesn't trigger a new notification.
+    - Use `/polly` in Slack to ask for opinions
 1. During video conference:
     - Mute your microphone when not talking.
     - Turn on camera
