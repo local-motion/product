@@ -10,6 +10,7 @@
     1. Organization page -- https://github.com/local-motion
     1. Product page -- https://github.com/local-motion/product
     1. Development bootstrap -- https://github.com/local-motion/bootstrap
+1. Meeting egg timer -- https://e.ggtimer.com/10minutes
 
 
 ### SCHEDULE
