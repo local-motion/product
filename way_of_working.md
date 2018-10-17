@@ -36,7 +36,7 @@
 - Sprints that last 2 weeks, starting each Wednesday
 - 1x grooming session per week
 - Stand-ups are done daily
-- 1x retrospective at end of sprint
+- 1x refinement at end of sprint
 
 
 ### STAND-UP
@@ -49,7 +49,7 @@ Answer the following questions:
 1. Today I'll work on ...\[, and I think X, Y or Z may need some help. I'll reach out to ...\]
 1. Things blocking me are \[..., ...\]
 
-### GROOMING
+### REFINEMENT
 
 This is a **synchronous** video session.
 
