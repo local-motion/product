@@ -36,6 +36,7 @@
 - Sprints that last 2 weeks, starting each Wednesday
 - 1x refinement session per week
 - Stand-ups are done daily
+- 1x sprint demo at the end of sprint
 - 1x refinement at end of sprint
 
 
@@ -63,6 +64,15 @@ at the start of the Sprint.
     - Issues that do not have questions, ask: "Any new concerns?"
     - Issues that have questions, ask: "Who is doing what to make this clear?". Record
     decisions and actions as comment on the issue.
+
+### SPRINT DEMO
+
+This is a **synchronous** video session.
+
+- Max 20 minutes
+- Show what you did during the sprint.
+- If you have something to show, don't wait for the demo but share a recording on slack.
+
 
 ### RETROSPECTIVE
 
