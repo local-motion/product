@@ -3,16 +3,26 @@
 ### TOOLS
 
 1. Register at ZenHub and install the Chrome plugin -- https://www.zenhub.com/
+1. Google Meet (former Hangouts) -- https://meet.google.com
+1. Slack -- https://localmotionworkspace.slack.com
+1. Office365 -- https://outlook.office.com/owa/?realm=localmotioncommunity.onmicrosoft.com
+1. Github 
+    1. Organization page -- https://github.com/local-motion
+    1. Product page -- https://github.com/local-motion/product
+    1. Development bootstrap -- https://github.com/local-motion/bootstrap
 
 
 ### SCHEDULE
 
 - 2 week sprints starting on Wednesday
 - 1x grooming session per week
-- Stand-ups are done asynchronously through Slack
+- Stand-ups are done daily
+- 1x retrospective at end of sprint
 
 
 ### STAND-UP
+
+This is an **a-synchronous** process through Slack channel `#standups`
 
 Answer the following questions:
 
@@ -21,6 +31,8 @@ Answer the following questions:
 1. Things blocking me are \[..., ...\]
 
 ### GROOMING
+
+This is a **synchronous** video session.
 
 The goal is to have our top of the backlog prioritized. Issues at the top MUST NOT have questions
 at the start of the Sprint.
@@ -33,8 +45,12 @@ at the start of the Sprint.
     - Issues that have questions, ask: "Who is doing what to make this clear?". Record
     decisions and actions as comment on the issue.
 
+### RETROSPECTIVE
 
-### SENSITIVE ISSUES
+This is a **synchronous** video session
+
+
+### ISSUES THAT MAY CONTAIN SENSITIVE INFORMATION
 
 Local Motion is running on an 'internal AWS cluster'. Any issues/tasks related to creating or maintaining
 the internal AWS Kubernetes cluster will live in two places.
