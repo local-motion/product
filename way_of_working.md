@@ -47,7 +47,12 @@ at the start of the Sprint.
 
 ### RETROSPECTIVE
 
-This is a **synchronous** video session
+This is a **synchronous** video session with a time-cap of 30 minutes
+
+- Discuss last retrospective's resolution and whether it's a change we want to keep.
+- Each team member specifies his/her most important negative and most important positive.
+- After each team member, we vote for the most important negative
+- Only the negative with highest vote is discussed. Agree on a resolution for next sprint.
 
 
 ### ISSUES THAT MAY CONTAIN SENSITIVE INFORMATION
