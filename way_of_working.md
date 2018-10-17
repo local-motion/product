@@ -34,7 +34,7 @@
 ### SCHEDULE
 
 - Sprints that last 2 weeks, starting each Wednesday
-- 1x grooming session per week
+- 1x refinement session per week
 - Stand-ups are done daily
 - 1x refinement at end of sprint
 
