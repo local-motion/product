@@ -13,9 +13,25 @@
 1. Meeting egg timer -- https://e.ggtimer.com/10minutes
 
 
+### GENERAL HYGIENE 
+1. During Slack chat:
+    - Use english in chat rooms
+    - Use `:thumbsup:` or `:checkmark:` for important messages to indicate you've read the 
+    message. Use `Add reaction` instead of a new message so it doesn't trigger a new notification.
+1. During video conference:
+    - Mute your microphone when not talking.
+    - Turn on camera
+    - Headphones (even the simple earplugs) are highly recommended 
+1. Use (real/fake/animal) photo's on Github and Slack, it provides recognition and 
+   a 'liveliness'. Please use the same photo on the different services
+1. Share your smaller and bigger achievements on Slack #private or #announcements. 
+    - For developers this means, demo when you're done by recording your screen.
+    - For anyone else, share PDFs, photos, links to videos, layouts, important decisions etc.  
+
+
 ### SCHEDULE
 
-- 2 week sprints starting on Wednesday
+- Sprints that last 2 weeks, starting each Wednesday
 - 1x grooming session per week
 - Stand-ups are done daily
 - 1x retrospective at end of sprint
