@@ -20,6 +20,20 @@ http://a.co/d/59dKG2d
 
 In general; automate everything, avoid bloated, general-purpose libraries that come with too many goodies
 
+## Licenses
+In all repos must include the Apache2.0 license with this copyright notice:
+```
+Copyright 2018 ABN AMRO Bank N.V. and Het Longfonds
+```
+Addional licenses may be included if this is required by the use of foreign (open source) software.
+
+## Attribution
+All web pages should contain a footer stating:
+
+"Rookvrije speeltuinen is een initiatief van het Longfonds en ABN AMRO" (NL) or
+
+"Smoke-free playground is an initiative of het Longfonds and ABN AMRO" (EN)
+
 ## Tech stack
 
 Although we've made our first picks, the technology choices are all up for discussion.
