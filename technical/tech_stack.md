@@ -30,9 +30,9 @@ Addional licenses may be included if this is required by the use of foreign (ope
 ## Attribution
 All web pages should contain a footer stating:
 
-"Rookvrije speeltuinen is een initiatief van het Longfonds en ABN AMRO" (NL) or
+"Rookvrije speeltuinen is een initiatief van het Longfonds en ABN AMRO. Hosting door ABN AMRO" (NL) or
 
-"Smoke-free playground is an initiative of het Longfonds and ABN AMRO" (EN)
+"Smoke-free playground is an initiative of het Longfonds and ABN AMRO. Hosted by ABN AMRO" (EN)
 
 ## Tech stack
 
