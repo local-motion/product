@@ -13,8 +13,8 @@ registration an authentication method is established. After such an user
 has properly authenticated himself by a login procedure that user qualifies
 as a regular user.
 
-### Moderators
-Moderators have overall access and are able to intervene when local groups
+### Global moderators
+Global moderators have overall access and are able to intervene when local groups
 get into trouble. Longfonds employees and possibly assigned volunteers will
 typically be a moderator.
 - this user type will be introduced in sprint 4
