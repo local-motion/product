@@ -1,6 +1,8 @@
 # Identity and access management
 This section describes the enrollment and authentication of regular users.
 
+In our system, we consider regular users Citizens. Citizens are potential volunteers that have not signed up to participate in making a playground smokefree.
+
 ## User enrollment
 Anyone can enroll into the system and become a regular user.
 
