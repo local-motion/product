@@ -4,7 +4,7 @@
 
 There are three phases: Preparation, Execution and Sustain
 - Each phase consists of a set of actions. The actions of a phase cannot be manipulated before the previous phase is complete.
-- Anonymous user can view all content in any playground workspace, but they cannot make adjustments that effect the state of the system
+- Anonymous user can view all content in any playground workspace, but they cannot make adjustments that affect the state of the system
 and nor can they perform any other actions with side-effects such as sharing content on social media, sending invites, etc.
 - The workspace has various progress indicators. Unless specified otherwise indicators can be set and unset/adjusted by any user
 in the workspace.
