@@ -24,15 +24,15 @@ The system offers templates with a suitable text for various media:
 For each medium there is an indicator to state that the decision was shared. This indicator can be set and cleared by
 any workspace member.
 
-### Social media bomb
+### Social media confetti 🎉 
 The system offers a facility where volunteers agree to post a social media message at a future date. The system releases
 all these posts at that date at the same time, for maximum social media impact.
 
-Each playground member is able to join the bomb in which case the system offers a standard text which a user can modify
+Each playground member is able to join the confetti in which case the system offers a standard text which a user can modify
 and a selection of social media to post the message. (TBD (facebook, twitter, google+))
-The system keeps track of which users joined the social media bomb.
+The system keeps track of which users joined the social media confetti.
 
-Any volunteer is able to detonate the social media bomb. (CHECK: or show the date be established in advance?)
+Any volunteer is able to detonate the social media confetti. (CHECK: or show the date be established in advance?)
 
 ## Action 3: Make it visible
 To make it clear to the community that the playground will be/is smoke-free, it should be shown:
