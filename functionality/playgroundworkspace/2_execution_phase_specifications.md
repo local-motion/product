@@ -34,6 +34,8 @@ The system keeps track of which users joined the social media confetti.
 
 Any volunteer is able to detonate the social media confetti. (CHECK: or show the date be established in advance?)
 
+TODO: Check whether this kind of facility comply with the terms&conditions of the social media platforms we use.
+
 ## Action 3: Make it visible
 To make it clear to the community that the playground will be/is smoke-free, it should be shown:
 - The playground's policy should reflect this. The playground manager can indicate to the system that this has been done.
