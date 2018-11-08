@@ -27,5 +27,6 @@ Chat bot messages cannot be moderated.
 ## Constraints
 - A chat message has a minimum length of 1 and a maximum length of 300 characters
 - A user can submit no more than 100 messages per day in total over all chat boxes in LocalMotion
-- The chatbox of a single playground workspace can contain no more than 1000 messages, including messages deleted by the moderator
+- The chat box of a single playground workspace will accept no more that 300 messages per day. When this limit is reached
+the chat box is locked for the remainder of the day
 - The text message must match this regular expression: TBD
