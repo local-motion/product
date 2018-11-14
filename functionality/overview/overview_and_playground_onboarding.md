@@ -13,7 +13,7 @@ the markers should be combined into an aggregate marker.
 When the user selects a playground a few statistics are presented:
 - name
 - number of volunteers
-- number of endorsements
+- number of endorsements Do you mean petitions signed?
 - progress indication
 
 The map screen also displays the progress on national level.
