@@ -13,7 +13,6 @@ must be a numeric primary key).
 The system shall send an e-mail to the specified e-mail address containing a url that the
 user should click to confirm is ownership of the e-mail account.
 - Clicking the link will take the user into the system where he can set a password.
-- The verification link is valid for 24 hours. After this period the user is prompted to re-apply.
 - A verification link can only be used one time.
 
 ### Step 3: Select nickname and password
