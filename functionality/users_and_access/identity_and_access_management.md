@@ -24,7 +24,6 @@ must be unique within the system including the nicknames of users that have been
 The user has to option to specify a password:
 - the password must meet these criteria:
  - minimum length is 8 characters
- - maximum length is 20 characters
  - must include a numeric character and a special character
  - consists only of these characters: a-z A-Z 0-9 [TBD: special characters]
 - the user has the option the store the password on the device and therefore not having to
