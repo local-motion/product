@@ -1,5 +1,6 @@
-# Identity and access management
-This section describes the enrollment and authentication of regular users.
+# Identity and access management 
+This section describes the enrollment and authentication of regular users. 
+I would like people to come in by putting a signature (like the campaign that is running now). And that that is directly their login, if they want to do more than just sign a petition. Then you start with the same screen (s) as the campaign. Identify on the map and indicate a location (note: with functionality of the duplication of two or more streets on the same playground). They then sign the petition and are asked to go directly to their own promotion page by creating a password. The rest of the data is already there. Something along the lines of: 'Come directly into action on your own promotion page, enter your password here'. Something for Yvette to describe that well.
 
 ## User enrollment
 Anyone can enroll into the system and become a regular user.
