@@ -4,7 +4,7 @@
 When users enter the system a map of The Netherlands is displayed. On this map all known playgrounds are highlighted.
 The playground indicator shows whether the playground is:
 - smoke-free (sustain phase)
-- not smoke-free (no workspace opened yet, workspace opened but with no remaining volunteers or playground manager has indicated that the playground will not be smoke-free)
+- not smoke-free (no workspace opened yet, workspace opened but with no remaining volunteers or playground manager has indicated that the playground will not be smoke-free) Maybe no workspace when no-one is there, but add an invite on the map 'Are you the first to get this playground smoke-free?' or something like that.
 - in progress (all other cases)
 
 The user is able to zoom in and out. When the map is zoomed out to a level that it would be become clogged with playground markers,
