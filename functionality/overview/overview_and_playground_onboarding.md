@@ -25,6 +25,7 @@ playgrounds.
 The user needs to specify these playground attributes:
 - name
 - location: latitude + longitude (set by pinning a marker on the map)
+- As soon as a playground is placed within a radius of 100 (?) Meters, the question should visibly be raised with: 'may you mean this playground?' This is to avoid duplications (for example by two street names adjacent to the same playground)
 
 When the user defines a playground he will automatically onboard himself as playground moderator in that playground. All rules
 for onboarding apply. When the user is not able to onboard he will also not be able to add the playground.
