@@ -63,7 +63,7 @@ behaviour and the retain user authentication.
 A session has the following attributes:
 - session id: number identifying the session
 - timestamp of session creation
-- timestamp for last user activity [CHECK: SHOULD IT BE LIKE THIS?]
+- timestamp for last user activity [CHECK: SHOULD IT BE LIKE THIS?] Could someone explain this part to me?
 
 
 The session should expire after 60 minutes of inactivity and after 24 hours after creation of the session.
