@@ -4,19 +4,11 @@ This section describes the enrollment and authentication of regular users.
 ## User enrollment
 Anyone can enroll into the system and become a regular user.
 
-### Step 1: Specify e-mail address
+### Step 1: Specify e-mail address, nickname and password
 The e-mail address will be the primary identification of the user within
 the system. (It is the logical primary key of a user, note that technically there
 must be a numeric primary key).
 
-### Step 2: Verify e-mail address
-The system shall send an e-mail to the specified e-mail address containing a url that the
-user should click to confirm is ownership of the e-mail account.
-- Clicking the verification link will confirm the user registration.
-- The verification link is valid for 24 hours. After this period the user is prompted to re-apply.
-- A verification link can only be used one time.
-
-### Step 3: Select nickname and password
 The user selects a nickname that will identify the user to other users in the system. (Note the
 e-mail address of the user will not be disclosed to other anonymous or regular users.) The nickname
 must be unique within the system including the nicknames of users that have been off-boarded.
@@ -25,7 +17,7 @@ The user has to option to specify a password:
 - the password must meet these criteria:
  - minimum length is 8 characters
  - must include a numeric character and a special character
- - consists only of these characters: a-z A-Z 0-9 [TBD: special characters]
+ - consists only of these characters: a-z A-Z 0-9 [special character]
 - the user has the option the store the password on the device and therefore not having to
 do an explicit login anymore. The system should warn the user when selecting this option
 that anyone with access to the device will be able to take his identity.
@@ -37,7 +29,14 @@ characters (see above)
 not need to do an explicit login anymore. The system should warn the user when selecting this option
 that anyone with access to the device will be able to take his identity.
 
-### Step 4: Create the user and log in
+### Step 2: Verify e-mail address
+The system shall send an e-mail to the specified e-mail address containing a url that the
+user should click to confirm is ownership of the e-mail account.
+- Clicking the verification link will confirm the user registration.
+- The verification link is valid for 24 hours. After this period the user is prompted to re-apply.
+- A verification link can only be used one time.
+
+### Step 3: Create the user and log in
 A new user is recorded into the system and an authenticated session is created.
 
 ## User authentication
