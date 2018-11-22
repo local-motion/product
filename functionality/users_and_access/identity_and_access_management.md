@@ -1,10 +1,10 @@
 # Identity and access management
 This section describes the enrollment and authentication of regular users.
 
-In our system, we consider regular users Citizens. Citizens are potential volunteers that have not signed up to participate in making a playground smokefree.
+In our system, we consider regular users Citizens. When a Citizen signs up to participate in making a playground smokefree we call this Citizen a Volunteer. Note though that from an identity and access management perspective there is no distinction between a Citizen and a Volunteer.
 
 ## User enrollment
-Anyone can enroll into the system and become a regular user.
+Anyone can enroll into the system and become a Citizen.
 
 ### Step 1: Specify e-mail address
 The e-mail address will be the primary identification of the user within
