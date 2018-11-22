@@ -45,7 +45,8 @@ A new user is recorded into the system and an authenticated session is created.
 When the user accesses the system without a session the system will check whether the user's
 password is stored on the device. If so, the user is logged in automatically. The log in/log out status
 is displayed in the menu bar. When the user does not have a password stored on his device or the password is
-incorrect the user will receive an unauthenticated session and will continue as an anonymous user.
+incorrect the user will receive an unauthenticated session and will continue as an anonymous user. (Note that an anonymous user is by definition a user without a valid session, so a user that did not (successfully) log in. Because the user is 
+anonymous the system does not know whether this person is actually registed in the system as a user and will therefore treat all anonymous users in the same way.)
 
 For anonymous users a log in button will be displayed in the menu bar. Clicking this button takes the user
 to a login dialog. The user has three attempts to specify the correct password. When successful the user
