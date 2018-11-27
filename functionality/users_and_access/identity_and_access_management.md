@@ -9,7 +9,7 @@ Anyone can enroll into the system and become a Citizen.
 ### Step 1: Specify e-mail address, nickname and password
 The e-mail address will be the primary identification of the user within
 the system. (It is the logical primary key of a user, note that technically there
-must be a numeric primary key).
+must be a separate primary key (typically a GUID)).
 
 The user selects a nickname that will identify the user to other users in the system. (Note the
 e-mail address of the user will not be disclosed to other anonymous or regular users.) The nickname
