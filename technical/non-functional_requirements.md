@@ -19,3 +19,6 @@ All software components in LocalMotion should meet the requirements specified he
 
 ## Scalability
 - The system should be capable of handling 20 concurrent user sessions
+
+## Error handling
+- In case of technical errors the application should provide user friendly error message as opposed to for instance showing a stack dump that is meaningless to the end-user and exposes too much information about the internals of the application infrastructure. The user friendly message should include a reason code that will allow the support team to determine the nature of the error.
