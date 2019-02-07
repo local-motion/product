@@ -43,13 +43,13 @@ To make it clear to the community that the playground will be/is smoke-free, it 
 in the system that this has been done. The system provides a template html text and allows users to download
 the smoke-free logo.
 - The smoke-free sign should be installed on the playground's fence. Only the playground manager can order the sign. These rules apply:
- - When a sign has already been ordered in the past for this playground then it is not possible to order
+  - When a sign has already been ordered in the past for this playground then it is not possible to order
 another one.
- - The user enters his name and address details. These details are not stored in the system. (TBD: perhaps we should use the playground's address?)
- - The system sends an e-mail to a configured e-mail address containing the request for the sign, a link to the
+  - The user enters his name and address details. These details are not stored in the system. (TBD: perhaps we should use the playground's address?)
+  - The system sends an e-mail to a configured e-mail address containing the request for the sign, a link to the
 playground workspace and the name and address details of the user. The people behind this mailbox will take
 care of sending the sign to the user.
- - The system records the fact that the user has ordered the sign. It is shown in the playground workspace which
+  - The system records the fact that the user has ordered the sign. It is shown in the playground workspace which
 user has ordered the sign.
  - Any user with the playground manager role can indicate that he has installed the sign on the playground's fence. Note that this can
  also be done without first having ordered the smoke-free sign as there are other ways to obtain the sign as well.
