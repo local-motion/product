@@ -57,6 +57,9 @@ user has forgotten the password the user can request a password reset, in which 
 the e-mail address provided by the user containing a link that will allow to user to set a new password. This link will be
 valid for 24 hours and can only be used once.
 
+### Magic link authentication
+As the system allows password reset by mail. The user can also just ask for a link to login instead of changing his password. This link will be valid for 24 hours and can only be used once.
+
 ## User session
 Each user that enters the system, including anonymous users, will receive a session. This session can be used to analyse user
 behaviour and the retain user authentication.
