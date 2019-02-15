@@ -3,6 +3,9 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.2-alpha - 14/2/2019
+This release upgrades our infrastructure, no new software was released.
+
 ## Release 1.0.1-alpha - 5/2/2019
 This release provides a number of usability improvements:
 - no more page reloads in the application, so instant navigation
