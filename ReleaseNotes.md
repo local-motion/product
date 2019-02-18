@@ -3,6 +3,9 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.3-alpha - 18/02/2019
+A http-to-https redirect is configured in the load balancer, so users that just type in the application's url without the scheme will automatically be redirected to the proper https endpoint.
+
 ## Release 1.0.2-alpha - 14/2/2019
 This release upgrades our infrastructure, no new software was released.
 
