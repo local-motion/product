@@ -3,6 +3,23 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.5-alpha - 21/02/2019
+Many steps in the workspace are now complete as an initial version:
+- Get support
+- Flyers (was already done)
+- Involve playground manager
+- Decide to become smokefree
+- Set a date
+- Share decision
+- Make it visible
+- Share smokefree result
+The validate step is partially implemented (not yet connected to the server-side logic)
+
+On the playground map the marker are colored depending on the state of the playground:
+- white = initial state
+- blue = in progress
+- green = smokefree
+
 ## Release 1.0.4-alpha - 19/02/2019
 All steps of the process to become smokefree have been included in the workspace. Note that not all of them are implemented yet. The 'Flyers' component has been completed.
 
