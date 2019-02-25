@@ -3,6 +3,13 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.6-alpha - 25/02/2019
+A separate Team page in each workspace is introduced. It show the list of volunteers and hosts the chatbox.
+
+New visitors are now greeted by a welcome page (with dummy content for now) that will explain the goal and workings of
+the application. The workspace dashboard is prepared to be converted to a workspace welcome / onboarding page. Onboarding is done on this page and it is no longer required to visit a playground. Members of the workspace will skip this page and are 
+automatically directed to the action page.
+
 ## Release 1.0.5-alpha - 21/02/2019
 Many steps in the workspace are now complete as an initial version:
 - Get support
