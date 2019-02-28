@@ -3,6 +3,13 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.7-alpha - 28/02/2019
+This release features several improvements:
+- Styling and scrolling related improvements have been made to the chat dialog.
+- Managers are now automatically included in the list of volunteers for their playground workspace.
+- The user name is now shown in the profile menu.
+- The buttons on the action cards are disabled when users are not logged in or not a volunteer of that workspace.
+
 ## Release 1.0.6-alpha - 25/02/2019
 A separate Team page in each workspace is introduced. It show the list of volunteers and hosts the chatbox.
 
