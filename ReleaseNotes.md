@@ -3,6 +3,13 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+# Release 1.0.8-alpha - 11/03/2019
+In this release:
+- The validate-playground-is-smokefree card is connected to the backend and now keeps track of the total number of observations. Also the business rule that only one observation per day can be registered is implemented.
+- The playground information in the front-end is continuously refreshed in the background. This allows for changes made by other users in the platform to appear within a few seconds.
+- The workspace welcome page is redesigned and now provides a better explanation to users about what is expected of them.
+- A new footer explains the purpose of the smokefree playgrounds initiative
+
 ## Release 1.0.7-alpha - 28/02/2019
 This release features several improvements:
 - Styling and scrolling related improvements have been made to the chat dialog.
