@@ -3,6 +3,11 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+# Release 1.0.9-alpha - 20/03/2019
+This release contains some technical upgrades:
+- Refactored and improved polling mechanism for both the playgrounds and chat
+- Environment-specific front-end configuration for Cognito and Google maps is fetched from the server
+
 # Release 1.0.8-alpha - 11/03/2019
 In this release:
 - The validate-playground-is-smokefree card is connected to the backend and now keeps track of the total number of observations. Also the business rule that only one observation per day can be registered is implemented.
