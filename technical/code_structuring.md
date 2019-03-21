@@ -11,8 +11,9 @@ Infrastructure related packages should reside under `io.localmotion.infrastructu
 The main classes / entrypoints of the application reside in `io.localmotion.application`.
 
 It is important to separate the generic logic in LocalMotion from the logic that relates towards a particular type of initiative.
-Generic functional logic resides under `io.localmotion.platform`. For specific initiatives create a subpackage under `io.localmotion`,
-for example `io.localmotion.smokefreeplaygrounds`.
+Therefore generic logic should reside in separate packages with name describing the function that the logic provides, for example
+`io.localmotion.initiative`. Specific logic goes into it's own package, for example `io.localmotion.smokefreeplaygrounds`.
+
 
 Within a functional package (either io.localmotion.platform or a specific one), create the following substructure:
 - command: command classes that can be submitted on the (Axon) command bus
@@ -36,12 +37,18 @@ For all the above holds that any helper classes should be included in the same p
 - io.localmotion.infrastructure.axon
 - io.localmotion.infrastructure.graphql
 - io.localmotion.infrastructure.axon
-- io.localmotion.platform.command
-- io.localmotion.platform.event
-- io.localmotion.platform.domain
-- io.localmotion.platform.controller
-- io.localmotion.platform.aggregate
-- io.localmotion.platform.projection
+- io.localmotion.initiative.command
+- io.localmotion.initiative.event
+- io.localmotion.initiative.domain
+- io.localmotion.initiative.controller
+- io.localmotion.initiative.aggregate
+- io.localmotion.initiative.projection
+- io.localmotion.user.command
+- io.localmotion.user.event
+- io.localmotion.user.domain
+- io.localmotion.user.controller
+- io.localmotion.user.aggregate
+- io.localmotion.user.projection
 - io.localmotion.smokefreeplaygrounds.command
 - io.localmotion.smokefreeplaygrounds.event
 - io.localmotion.smokefreeplaygrounds.domain
