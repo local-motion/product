@@ -4,7 +4,7 @@ This document lists the major features that were introduced or changed in a rele
 changes please review the git logs of the involved repositories.
 
 ## Release 1.0.10-alpha - 21/03/2019
-- SSL policy is changed for loadbalancer according to cbsp requirement
+This is an internal infrastructure release. It does not contain any changes in the application.
 
 ## Release 1.0.9-alpha - 20/03/2019
 A large part of the infra stack has been refactored. These are the major changes:
