@@ -7,7 +7,7 @@ changes please review the git logs of the involved repositories.
 This release contains some technical upgrades:
 - Refactored and improved polling mechanism for both the playgrounds and chat
 - Environment-specific front-end configuration for Cognito and Google maps is fetched from the server
-- SSL policy for loadbalancer according to cbsp requirement
+- SSL policy is changed for loadbalancer according to cbsp requirement
 
 # Release 1.0.8-alpha - 11/03/2019
 In this release:
