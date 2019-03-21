@@ -31,12 +31,11 @@ For all the above holds that any helper classes should be included in the same p
 - io.localmotion.chatbox
 - io.localmotion.configuration
 - io.localmotion.personaldata
-- io.localmotion.infrastructure.aws.rds.secretmanager
-- io.localmotion.infrastructure.aws.cognito
-- io.localmotion.infrastructure.database
-- io.localmotion.infrastructure.axon
-- io.localmotion.infrastructure.graphql
-- io.localmotion.infrastructure.axon
+- io.localmotion.security.aws.cognito
+- io.localmotion.storage.database
+- io.localmotion.storage.aws.rds.secretmanager
+- io.localmotion.eventsourcing.axon
+- io.localmotion.interfacing.graphql
 - io.localmotion.initiative.command
 - io.localmotion.initiative.event
 - io.localmotion.initiative.domain
