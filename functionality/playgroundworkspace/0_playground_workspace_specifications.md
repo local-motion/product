@@ -20,10 +20,10 @@ The initiative is defined, but without any volunteers. Typically this can be the
 - no actions
 
 ### Preperation (Red)
-- start a team of people
-- contact playground manager (convince)
-  flyer, getting signatures for this specific playingground in your community, use signatures to convice manager
-- Decide who is teamleader (manager); He is spokeperson for parents, volunteers and other interested parties.
+- [start a team of people, get support](1_preparation_phase_specifications.md#action-1-get-support)
+- [contact playground manager (convince)](1_preparation_phase_specifications.md#action-3-involve-playground-manager)
+- [flyer, getting signatures for this specific playingground in your community, use signatures to convice manager](1_preparation_phase_specifications.md#action-2-distribute-flyers)
+- [Decide who is teamleader (manager); He is spokeperson for parents, volunteers and other interested parties.](1_preparation_phase_specifications.md#action-4-decision--smoke-free)
 
 Criteria: Teamleader decides if playingground can go to execution phase
 
