@@ -3,6 +3,16 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.11-alpha - 27/03/2019
+A number of changes have been made to the front-end:
+- Some styling improvements
+- Add-playground dialogue is now full screen
+- Improved map pins
+- Upgraded chat polling mechanism
+- Unauthenticated users that have chosen to join a workspace will automatically signup after login
+- Sign-in bug fix
+- Workspace cards that are still in development are hidden
+
 ## Release 1.0.10-alpha - 21/03/2019
 This is an internal infrastructure release. It does not contain any changes in the application.
 
