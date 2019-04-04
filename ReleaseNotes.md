@@ -3,6 +3,14 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.12-alpha - 04/04/2019
+This release is contains a refactored backend and some usabilities changes in the frontend:
+- Refactored java code: new package structure and better separation between Localmotion platform code and smokefree initiative code
+- Make cities of NL searchable on the map
+- Various visual improvements
+- Enable map zoom by scrolling wheel (no more need to hold the control key)
+- Remove business point-of-interest from playground map
+
 ## Release 1.0.11-alpha - 27/03/2019
 A number of changes have been made to the front-end:
 - Some styling improvements
