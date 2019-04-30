@@ -3,6 +3,15 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.14-alpha - 30/04/2019
+This release contains:
+- a completely redesigned landing page that looks more attractive, has a better explanation of the smokefree playgrounds initiative and a stronger call-to-action for people to participate
+- the workspace now has call-to-action buttons for each step
+- improved date and time display for chat message (also works on Safari now)
+- login step in the workspace has a more attractive design
+- a collect opinions step has been introduced in the process (preparation phase)
+- terms of usage and privacy statement now pop up from the signup screen so the user flow is no longer disturbed
+
 ## Release 1.0.13-alpha - 17/04/2019
 The workspace has been redesigned to accomodate the feedback we got during the first series of alphatests:
 - All navigation is on the left of the page now
