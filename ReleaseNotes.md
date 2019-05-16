@@ -3,6 +3,18 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+
+## Release 1.0.15-alpha - 17/05/2019
+In this release:
+- the playground selection and creation takes place in the workspace resulting in one smooth process
+- displaying a list of playgrounds in the vincinity of the search location of the user
+- improved playground creation dialog
+- user offboarding includes offboarding from Cognito, resulting in a complete offboarding process
+- it is no longer possible to enroll multiple users with the same email address (Note that it is possible to reclaim an email address once a user has offboarded)
+- the password reset and signup verification mails now contain links so the user no longer has to copy the verification codes
+- fixed safari bug that blocked logged-in user from retrieving information from the server
+- several small improvements
+
 ## Release 1.0.14-alpha - 30/04/2019
 This release contains:
 - a completely redesigned landing page that looks more attractive, has a better explanation of the smokefree playgrounds initiative and a stronger call-to-action for people to participate
