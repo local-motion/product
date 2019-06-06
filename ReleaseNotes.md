@@ -4,6 +4,13 @@ This document lists the major features that were introduced or changed in a rele
 changes please review the git logs of the involved repositories.
 
 
+## Release 1.0.16-beta - 06/06/2019
+This release includes:
+- A user profile page displaying all user related information and providing options to modify user attributes and to offboard. (Note that not all features have actually been implemented yet.)
+- A page containing the initiatives that the user is involved in ('mijn acties'). (Note that the initiatives shown are a random selection at the moment.)
+- Improved signin, signup and password reset logic with better error feedback, routing and a password assist.
+- Proper email is sent when the user requests to resend to signup verification code.
+
 ## Release 1.0.15-alpha - 17/05/2019
 In this release:
 - the playground selection and creation takes place in the workspace resulting in one smooth process
