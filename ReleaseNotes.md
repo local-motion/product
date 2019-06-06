@@ -10,6 +10,7 @@ This release includes:
 - A page containing the initiatives that the user is involved in ('mijn acties'). (Note that the initiatives shown are a random selection at the moment.)
 - Improved signin, signup and password reset logic with better error feedback, routing and a password assist.
 - Proper email is sent when the user requests to resend to signup verification code.
+- Application now works in the Edge browser
 
 ## Release 1.0.15-alpha - 17/05/2019
 In this release:
