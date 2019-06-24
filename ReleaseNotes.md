@@ -4,13 +4,22 @@ This document lists the major features that were introduced or changed in a rele
 changes please review the git logs of the involved repositories.
 
 
+## Release 1.0.17-beta - 24/06/2019
+In this release we:
+- redesigned the signup and authentication dialogs
+- implemented the password change and enabling/disabling notification on the user profile page
+- added a notification 'drawer' that shows an audit trail of the recent activities in the initiatives that the user is involved in
+- display a non-blocking notification in the bottom of the page when the network connection is lost
+- refresh Cognito tokens every 20 minutes
+- decrease the polling frequency of update streams when consecutive polls return no updates
+
 ## Release 1.0.16-beta - 06/06/2019
 This release includes:
-- A user profile page displaying all user related information and providing options to modify user attributes and to offboard. (Note that not all features have actually been implemented yet.)
-- A page containing the initiatives that the user is involved in ('mijn acties'). (Note that the initiatives shown are a random selection at the moment.)
-- Improved signin, signup and password reset logic with better error feedback, routing and a password assist.
-- Proper email is sent when the user requests to resend to signup verification code.
-- Application now works in the Edge browser
+- a user profile page displaying all user related information and providing options to modify user attributes and to offboard. (Note that not all features have actually been implemented yet.)
+- a page containing the initiatives that the user is involved in ('mijn acties'). (Note that the initiatives shown are a random selection at the moment.)
+- improved signin, signup and password reset logic with better error feedback, routing and a password assist.
+- proper email is sent when the user requests to resend to signup verification code.
+- application now works in the Edge browser
 
 ## Release 1.0.15-alpha - 17/05/2019
 In this release:
