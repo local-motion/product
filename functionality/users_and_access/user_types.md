@@ -7,7 +7,7 @@ Each user in the system is of one particular type.
 Anonymous users are users that have not authenticated themselves.
 
 ### Regular users
-Anyone can register themselves as a user with their e-mail address. During
+Anyone can register themselves as a user. During
 registration an authentication method is established. After such an user
 has properly authenticated himself by a login procedure that user qualifies
 as a regular user.
@@ -21,9 +21,10 @@ typically be a moderator.
 These users will generally be small in number and authorised to assign privileges (such as the moderator role) to other users.
 
 ### Technical administrators
-These users have the highest permissions in the system and will generally be
-small in number and authorised to assign privileges to other users and run database updates.
-It is to be determined whether these users actually log on to the system or whether they merely interact with the system by running one-time programs.
+These users have the backend permissions to run jobs in the system. Currently this job need to be triggered throught the frontend.
+The job have the email address configured of the user that is allowed to trigger the job (typically that of the technical administrator).
+Therefore there is no need to distinguish a technical administrator role in the system itself. Usually jobs will only be available to the
+system at the time that they are actually run preventing too much exposure.
 
 ## User roles within an playground workspace
 With the context of a playground workspace a regular user (and only a regular user)
