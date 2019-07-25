@@ -1,10 +1,34 @@
 # Identity and access management
 This section describes the enrollment and authentication of regular users.
 
-In our system, we consider regular users Citizens. When a Citizen signs up to participate in making a playground smokefree we call this Citizen a Volunteer. Note though that from an identity and access management perspective there is no distinction between a Citizen and a Volunteer.
+## Authentication systems
+User registration and authentication is done outside the LocalMotion system. Currently the users are registered in AWS Cognito, but in the 
+future users from Facebook, Google, etc. could also be granted access to LocalMotion.
+
+LocalMotion maintains its own administration of users and keeps track of the authentication system belonging to a user (that is the authentication
+system that the user signed up with).
+
 
 ## User enrollment
-Anyone can enroll into the system and become a Citizen.
+The user first enrolls into the authentication system. After enrollment the user should log in into the authentication system and then accesses
+LocalMotion. 
+In LocalMotion the record of the external authentication system (for instance JWT token) is bound to a (potential) LocalMotion user. Currently this is
+done on the email address.
+
+The following situations can be distinguished:
+- the user exists and is active in the system. The user is logged in LocalMotion and any user attrbutes as such user name provided by the authentication system 
+are updated in the LocalMotion system. (The user is prompted to approve this update, but will only be logged in to LocalMotion when he approves.)
+- the user does not exist yet. The user is automatically onboarded. (At least for Cognito users as the Cognito signup is transparant and integrated into the
+  LocalMotion frontend. When other ('external') authentication systems are used, the user should be asked to confirm that he wants to enroll.)
+- the user exists, but was offboarded. The user can be revived by the frontend. The user is prompted to explicitly state that he intends to enroll and when
+  applicable with changed user attributes such as the user name.
+
+
+
+
+
+## User enrollment
+Anyone can enroll into the system and become a regular user.
 
 ### Step 1: Specify e-mail address, nickname and password
 The e-mail address will be the primary identification of the user within
