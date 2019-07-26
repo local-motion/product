@@ -3,6 +3,18 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.18-beta - 26/07/2019
+This release contains:
+- the ability to run (technical) administrator jobs
+- Cognito-import-file-generation job
+- Delete-personal-data job
+- Some fixes in handling (deleted) users of which the personal data has been deleted
+- Preparation of the system for dealing with multiple authentication providers (currently only AWS Cognito is supported)
+- Users that sign up again with the same e-mail address after having offboarded before are recognised as the same user and 'revived'
+- Revival may happen with a different user name, providing the users with a (somewhat crude) option to change their user name
+- Steps that have been completed receive a checkmark in the navigation menu
+- Improved workspace navigation on mobile devices
+- Facebook workgroups social button removed
 
 ## Release 1.0.17-beta - 24/06/2019
 In this release we:
