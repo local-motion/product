@@ -7,7 +7,8 @@ changes please review the git logs of the involved repositories.
 This release contains:
 - the ability to run (technical) administrator jobs
 - Cognito-import-file-generation job
-- Delete-personal-data job
+- Delete-personal-data job, to 'forget' the personal data of a deleted user
+- Statistics job, that presents count of the major (technical) entities in the system
 - Some fixes in handling (deleted) users of which the personal data has been deleted
 - Preparation of the system for dealing with multiple authentication providers (currently only AWS Cognito is supported)
 - Users that sign up again with the same e-mail address after having offboarded before are recognised as the same user and 'revived'
