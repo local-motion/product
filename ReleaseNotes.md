@@ -3,6 +3,9 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.19-beta - 30/07/2019
+This is an internal infrastructure release. It does not contain any changes in the application.
+
 ## Release 1.0.18-beta - 26/07/2019
 This release contains:
 - the ability to run (technical) administrator jobs
