@@ -63,7 +63,7 @@ A file named `cognitoimport` is produced in the job folder. It conforms to this 
 
 Only the `cognito:username`, `email`, `email_verified` (always set to TRUE) and `cognito:mfa_enabled` (always set to FALSE) are populated.
 
-
+---
 ### Delete Personal Data
 
 #### Command identifier
@@ -85,7 +85,7 @@ removed, which also has the effect that the user cannot be revived. (Onboarding 
 #### Output parameters
 - recordsRemoved: number of records that were removed from the PersonalDataRecord table
 
-
+---
 ### Statistics report
 
 #### Command identifier
