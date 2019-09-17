@@ -36,6 +36,18 @@ The command file has the following structure:
 - operatorEmail: email address of the LocalMotion user that is allowed to trigger the execution of the job
 - inputParameters: json string containing the command-specific input parameters
 
+This is an example command file to delete the personal data of a user:
+```
+{
+    "commandIdentifier" : "DeletePersonalData",
+    "comment" : "on the user's request",
+    "operatorEmail" : "lmadmin@example.com",
+    "inputParameters" : "{
+        \"userId\" : \"44dd587c-5c70-4c89-bcf5-ac84e9488e8e\"
+    }"
+}
+```
+
 During the execution of the job the system creates a `inexecution` file to avoid concurrent job executions. If somehow a job should complete
 without removing this file and therefore locks up the execution of jobs then remove this file by hand. (Note that the system will auto-recover after 
 some time.)
