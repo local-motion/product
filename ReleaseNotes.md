@@ -3,12 +3,18 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.20-beta - 20/09/2019
+In this release the chat functionalty has been refactored mainly to allow for future upgrades. Additionally:
+- When a user's name changes this is now reflected in the chat history
+- Chat migration job, that migrates the chat history to the new model
+- Fixed a bug in the cognito import file generation
+
 ## Release 1.0.19-beta - 30/07/2019
 This is an internal infrastructure release. It does not contain any changes in the application.
 
 ## Release 1.0.18-beta - 26/07/2019
 This release contains:
-- the ability to run (technical) administrator jobs
+- The ability to run (technical) administrator jobs
 - Cognito-import-file-generation job
 - Delete-personal-data job, to 'forget' the personal data of a deleted user
 - Statistics job, that presents count of the major (technical) entities in the system
@@ -100,7 +106,7 @@ Dependent stacks can select the results from other stacks by specifying a prefix
 - User pools are now sufficiently detached to support multiple pool in the account.
 - More cloudwatch facilities
 
-# Release 1.0.8-alpha - 11/03/2019
+## Release 1.0.8-alpha - 11/03/2019
 In this release:
 - The validate-playground-is-smokefree card is connected to the backend and now keeps track of the total number of observations. Also the business rule that only one observation per day can be registered is implemented.
 - The playground information in the front-end is continuously refreshed in the background. This allows for changes made by other users in the platform to appear within a few seconds.

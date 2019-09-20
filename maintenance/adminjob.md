@@ -119,3 +119,23 @@ None
 - deletedProfileCount: number of deleted (offboarded) user profiles
 - initiativeCount: number of initiatives
 
+
+---
+### Chat migration
+
+#### Command identifier
+ChatMigration1.0.18-1.0.19
+
+#### Purpose
+Migrates the chat messages to a new database schema from release v.0.18-beta to release v1.0.19-beta. (Note that this command was actually
+run prior to release v1.0.20-beta as release v1.0.19-beta turned out to be an infrastructure release with no change to the application or its DB schema.)
+
+#### Input parameters
+- migrationAction: 
+  - DRYRUN: performs all validations and counts but does not actually migrate the messages
+  - MIGRATE: performs validations and migrates the messages. DO NOT run this command twice as duplicate messages will appear. Note that the migration is not atomic. Some chat messages may fail while others succeed. Therefore run the dry run first.
+  - DROPTABLE: deletes the original chat table from the schema. To be run after the migration.
+
+#### Output parameters
+- conversion: a list of messages, one for each record either listing the migrated record or containing a error message
+
