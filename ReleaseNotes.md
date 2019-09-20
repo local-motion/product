@@ -3,6 +3,10 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.20-patch1 - 20/09/2019
+Fixes a problem with the migration of chat messages.
+This version only applies to the smokefree service.
+
 ## Release 1.0.20-beta - 20/09/2019
 In this release the chat functionalty has been refactored mainly to allow for future upgrades. Additionally:
 - When a user's name changes this is now reflected in the chat history
