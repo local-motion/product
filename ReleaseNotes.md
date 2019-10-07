@@ -3,6 +3,13 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.21-beta - 07/10/2019
+This release:
+- Upgrades some frontend and backend dependencies
+- Fixes a bug in the statistics admin job
+- Disables selection of a smokefree date in the past and correctly displays the selected date
+- Introduces a developer settings page that (as a first feature) allows the developer to set the log level of the browser console log. This also gets rid of the log messages for regular users.
+
 ## Release 1.0.20-patch1 - 20/09/2019
 Fixes a problem with the migration of chat messages.
 This version only applies to the smokefree service.
