@@ -3,6 +3,9 @@
 This document lists the major features that were introduced or changed in a release. For a detailed view of the internal 
 changes please review the git logs of the involved repositories.
 
+## Release 1.0.23-beta - 22/10/2019
+Just another upgrade of the RDS certificate. (This is a backend-only release.)
+
 ## Release 1.0.22-beta - 21/10/2019
 In this release several Java packages are updated, a new RDS certificate is installed and a bug in the 'resend verification code' link in the onboarding form is fixed.
 
